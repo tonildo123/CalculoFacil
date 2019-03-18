@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculo Facil</string>
+    <color name="titletextcolor">#808B96</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

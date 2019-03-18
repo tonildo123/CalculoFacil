@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pantallaPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C2833"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonSumar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:background="@drawable/suma"
+        android:gravity="center_horizontal"
+        android:text="SUMAR"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/botonRestar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:background="@drawable/resto"
+        android:text="RESTAR"
+        android:textColor="@color/colorAccent"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/botonProducto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:background="@drawable/producto"
+        android:text="MULTIPLICAR"
+        android:textColor="#FDFEFE"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/botonCociente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:background="@drawable/cociente"
+        android:gravity="bottom|center_horizontal"
+        android:text="DIVIDIR"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="48sp" />
+</LinearLayout>
